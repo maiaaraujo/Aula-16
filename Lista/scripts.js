@@ -10,6 +10,7 @@ function adicionarItem(){
 }
 
 
+
 //int: inteiro
 //float: decimal
 //array: agrupamento de valores
