@@ -8,8 +8,10 @@ while (d <= 31) {
 
 let m = 1;
 
-while (m <= 12) {
-    mes.innerHTML += '<option>' + m + '</option>'
+let meses = ["Janeiro","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"]
+
+while (m < 12) {
+    mes.innerHTML += '<option>' + meses [m]+ '</option>'
 
     m++;
 }
